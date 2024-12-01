@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_main"
+        android:icon="?android:attr/homeAsUpIndicator"
+        android:title="Main Activity" />
+    <item
+        android:id="@+id/nav_second"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Second Activity" />
+    <!-- Pour les curieux : item secret -->
+    <item
+        android:id="@+id/nav_easter_egg"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Easter Egg" />
+</menu>
